@@ -24,7 +24,7 @@ YOLO v3 uses Darknet as a backbone architecture and then on top of darknet they 
 ![image](https://user-images.githubusercontent.com/76057253/133398712-bd957480-4ba8-45a6-9632-eb232f02297c.png)
 
 
-'''
+```
 @misc{redmon2018yolov3,
       title={YOLOv3: An Incremental Improvement}, 
       author={Joseph Redmon and Ali Farhadi},
@@ -33,4 +33,4 @@ YOLO v3 uses Darknet as a backbone architecture and then on top of darknet they 
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-'''
+```
