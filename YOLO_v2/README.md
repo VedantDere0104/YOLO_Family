@@ -36,6 +36,8 @@ Authors of YOLO v2 used Darknet as a backbone in YOLO v2 . This model is anchor 
 ## Results :- 
 
 YOLO v2 famous video by authors :- 
+
+
 [![YOLO v2](http://img.youtube.com/vi/VOC3huqHrss/0.jpg)](http://www.youtube.com/watch?v=VOC3huqHrss "YOLO v2 ")
 
 ![image](https://user-images.githubusercontent.com/76057253/133397447-ce845955-bea2-4936-8c93-30e1366e2914.png)
