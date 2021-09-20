@@ -68,6 +68,23 @@ Because Yolo v4 is an single stage detector it produces only Dense Predictions .
 ![image](https://user-images.githubusercontent.com/76057253/133957582-a135b829-9360-4231-a2f2-ea7f032944ea.png)
 
 
+Bag of Freebies (BoF) for backbone: CutMix and
+Mosaic data augmentation, DropBlock regularization,
+Class label smoothing
+
+Bag of Specials (BoS) for backbone: Mish activation, Cross-stage partial connections (CSP), Multiinput weighted residual connections (MiWRC)
+
+Bag of Freebies (BoF) for detector: CIoU-loss,
+CmBN, DropBlock regularization, Mosaic data augmentation, Self-Adversarial Training, Eliminate grid
+sensitivity, Using multiple anchors for a single ground
+truth, Cosine annealing scheduler , Optimal hyperparameters, Random training shapes
+
+Bag of Specials (BoS) for detector: Mish activation,
+SPP-block, SAM-block, PAN path-aggregation block,
+DIoU-NMS
+
+
+
 ```
 @misc{bochkovskiy2020yolov4,
       title={YOLOv4: Optimal Speed and Accuracy of Object Detection}, 
